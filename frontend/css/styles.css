@@ -8,9 +8,12 @@ body {
 .logo-navbar{
     height: 10vh;
     width: 100%;
-    background: #1f4037;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1f4037, #99f2c8);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1f4037, #99f2c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(144,166,255);
+    background: -moz-linear-gradient(90deg, rgba(144,166,255,1) 0%, rgba(91,183,201,1) 19%, rgba(91,183,201,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(144,166,255,1) 0%, rgba(91,183,201,1) 19%, rgba(91,183,201,1) 100%);
+    background: linear-gradient(90deg, rgba(144,166,255,1) 0%, rgba(91,183,201,1) 19%, rgba(91,183,201,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#90a6ff",endColorstr="#5bb7c9",GradientType=1); 
+    
 }
 
 
@@ -68,7 +71,11 @@ body {
     padding: 12px 40px;
     border: none;
     border-radius: 12px;
-    background-color:#1f4037; 
+    background: rgb(144,166,255);
+    background: -moz-linear-gradient(90deg, rgba(144,166,255,1) 0%, rgba(91,183,201,1) 19%, rgba(91,183,201,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(144,166,255,1) 0%, rgba(91,183,201,1) 19%, rgba(91,183,201,1) 100%);
+    background: linear-gradient(90deg, rgba(144,166,255,1) 0%, rgba(91,183,201,1) 19%, rgba(91,183,201,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#90a6ff",endColorstr="#5bb7c9",GradientType=1); 
     color: #fff;
     cursor: pointer;
     outline: none;
@@ -103,3 +110,4 @@ body {
 .user-input, .system-response {
     margin-bottom: 15px;
 }
+
