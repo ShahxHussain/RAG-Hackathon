@@ -3,6 +3,56 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chat Interface</title>
+<link rel="stylesheet" type="text/css" href="/frontend/css/styles.css">
+</head>
+<body>
+
+<div class="logo-navbar">
+    <div>
+        <img style="height: 7rem; width: 10rem; margin-top: -20px;" class="logo" src="RAG.svg" alt="logo">
+    </div>
+</div>
+
+<div class="chat-container" id="chatContainerVectara"></div>
+<div class="vertical-line"></div>
+<div class="chat-container" id="chatContainerLlama"></div>
+
+<div class="input-container" id="inputContainer">
+    <div class="input-wrapper">
+        <input type="file" id="fileInput" accept=".pdf" style="display: none;"> <!-- Hidden file input -->
+        <button onclick="selectFile()" class="file-button">Select PDF</button> <!-- Button to trigger file selection -->
+        <input type="text" id="textInput" class="user-input" placeholder="Type your message here...">
+        <button onclick="sendMessage()" class="send-button">Send</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Quran for Everyone</title>
 <link rel="stylesheet" type="text/css" href="/frontend/css/styles.css">
 </head>
@@ -34,4 +84,4 @@
 
 <script src="script.js"></script>
 </body>
-</html>
+</html> -->
